@@ -1,0 +1,30 @@
+ZAVRŠNI ZADATAK
+
+Softver za manipulaciju podacima stanara zgrade koja ima dva ulaza/lamele.
+Formiraju se tri tabele podataka:
+TABELA 1 – zgrada koja ima ID zgrade, adresa, parcela, opština
+TABELA 2 – stan koji ima ID zgrade, ID vlasnika, broj stana, sprat, kvadratura, broj soba, cena stana
+TABELA 3 – ID Ime vlasnika, lamela, broj stana, broj odraslih, broj dece, JMBG, LK, šifra
+
+Glavna strana ima batone:
+1.	Prikaz stanara prema izboru lamele i stana
+2.	Prikaz broja članova domaćinstva
+3.	Vrednost izabranog stana
+4.	Lista vlasnika stana prema kriterijumu sprata, lamele ili veličine stana
+5.	Pretraga baze prema kriterijumu: ime prezime sa prikazom podataka
+6.	Spisak praznih stanova sa karakteristikama
+
+Menubutton ima dugmice:
+Upravljanje zgradom:
+Promena vlasnika stana: bira se stan i menja se valsnik, stanari i sifra stana
+Promena šifre ulaza prema vlasniku
+Promena broja stanra u stanu
+Grafički dizajn:
+Prosečan broj stanara po spratovima
+Prosečan broj dece po stanu prema broju jedinica
+Prosečna cena stana prema broju jedinica
+Izvoz podataka:
+Izvoz podataka u excel bazu koja sadrži broj stana, stanare, kvadraturu, cenu
+Izvoz u txt podataka o procentualnom učešći stana u ukupnoj ceni zgrade
+Izvoz u excel svih stanara jedne lamele
+EXIT
